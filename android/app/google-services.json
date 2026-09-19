@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "688537745238",
+    "project_id": "nexus-flag-auth",
+    "storage_bucket": "nexus-flag-auth.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:688537745238:android:a28535798d2c32efee48f7",
+        "android_client_info": {
+          "package_name": "com.nexusflag.nexus_flag_movil"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "688537745238-qu63c56tu1uchnnel59ln5jt4qsdqh60.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nexusflag.nexus_flag_movil",
+            "certificate_hash": "e4c2c0d6c7be2544ec036c4063bf4965216ec51c"
+          }
+        },
+        {
+          "client_id": "688537745238-qtkpret2n6t0a4lstjjgljq5970loc8p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDC3Wz3TnhPTXS-haCs5qJXbHcJ2CSirAI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "688537745238-qtkpret2n6t0a4lstjjgljq5970loc8p.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "688537745238-urie5kbk5c878mpd0cie67j3n0q3ug29.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.nexusflag.nexusFlagMovil"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

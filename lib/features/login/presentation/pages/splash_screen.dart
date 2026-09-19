@@ -1,3 +1,4 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_native_splash/flutter_native_splash.dart';
 import 'package:go_router/go_router.dart';
@@ -178,6 +179,31 @@ class _AuthScreenState extends State<AuthScreen>
                           ),
                         ),
                       ),
+
+                      //todo quitar los kDebugMode en produccion
+                      if(kDebugMode)
+                      const SizedBox(height: 16),
+
+                      // Botón de registro
+                      if(kDebugMode)
+                      SizedBox(
+                        width: double.infinity,
+                        height: 56,
+                        child: OutlinedButton(
+                          onPressed: () {
+                            // Navegar a pantalla de registro
+                            context.push('/theme');
+                          },
+                          child: const Text(
+                            'Theme',
+                            style: TextStyle(
+                              fontSize: 18,
+                              fontWeight: FontWeight.w600,
+                            ),
+                          ),
+                        ),
+                      ),
+
                     ],
                   ),
                 ),

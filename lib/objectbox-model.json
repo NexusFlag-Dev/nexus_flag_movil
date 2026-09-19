@@ -1,0 +1,76 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "1:5388363921988111468",
+      "lastPropertyId": "9:7865330040435120886",
+      "name": "UserAuthOB",
+      "properties": [
+        {
+          "id": "1:3830740730262969412",
+          "name": "obxId",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:3856658467870290925",
+          "name": "id",
+          "type": 6,
+          "flags": 40,
+          "indexId": "1:3933565970680564744"
+        },
+        {
+          "id": "3:4603416681261747664",
+          "name": "email",
+          "type": 9
+        },
+        {
+          "id": "4:9135710321246750787",
+          "name": "firstName",
+          "type": 9
+        },
+        {
+          "id": "5:4728944909341218211",
+          "name": "lastName",
+          "type": 9
+        },
+        {
+          "id": "6:2157181575017344207",
+          "name": "role",
+          "type": 9
+        },
+        {
+          "id": "7:5642204217299805829",
+          "name": "photo",
+          "type": 9
+        },
+        {
+          "id": "8:7798629616964410733",
+          "name": "firebaseUid",
+          "type": 9,
+          "flags": 2080,
+          "indexId": "2:3588580734705479860"
+        },
+        {
+          "id": "9:7865330040435120886",
+          "name": "lastUpdated",
+          "type": 10
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "1:5388363921988111468",
+  "lastIndexId": "2:3588580734705479860",
+  "lastRelationId": "0:0",
+  "lastSequenceId": "0:0",
+  "modelVersion": 5,
+  "modelVersionParserMinimum": 5,
+  "retiredEntityUids": [],
+  "retiredIndexUids": [],
+  "retiredPropertyUids": [],
+  "retiredRelationUids": [],
+  "version": 1
+}

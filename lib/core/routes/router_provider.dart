@@ -8,6 +8,7 @@ import 'package:nexus_flag_movil/features/login/presentation/pages/login_page.da
 import 'package:nexus_flag_movil/features/login/presentation/pages/recup_pwd_page.dart';
 import 'package:nexus_flag_movil/features/login/presentation/pages/registro_page.dart';
 import 'package:nexus_flag_movil/features/login/presentation/pages/splash_screen.dart';
+import 'package:nexus_flag_movil/features/login/presentation/pages/verificar_correo_page.dart';
 
 final goRouterProvider =  Provider<GoRouter>((ref) {
 
@@ -54,6 +55,10 @@ final goRouterProvider =  Provider<GoRouter>((ref) {
             GoRoute(
               path: '/registro',
               builder: (context, state) => RegistroPage(),
+            ),
+            GoRoute(
+              path: '/verificarEmail',
+              builder: (context, state) => VerificarCorreoPage(),
             )
           ]
         ),

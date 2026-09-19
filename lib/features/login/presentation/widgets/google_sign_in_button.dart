@@ -35,8 +35,7 @@ class GoogleSignInButton extends StatelessWidget {
         color: Colors.transparent,
         child: InkWell(
           onTap: (){
-            //onPressed;
-            context.push('/theme');
+            onPressed();
           },
           borderRadius: BorderRadius.circular(28),
           child: Padding(

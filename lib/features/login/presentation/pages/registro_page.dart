@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 import 'package:nexus_flag_movil/common/widgets/text_field_password.dart';
-import 'package:nexus_flag_movil/features/login/presentation/manager/registro_vm.dart';
+import 'package:nexus_flag_movil/features/login/presentation/manager/login_vm.dart';
 
 import '../../../../core/theme/app_theme.dart';
 import '../widgets/google_sign_in_button.dart';
@@ -91,7 +91,7 @@ class _RegistroPageState extends ConsumerState<RegistroPage> {
         return;
       }
 
-      ref.read(registroVMProvider)
+      ref.read(loginVMProvider.notifier)
           .registrarUsuario(
             _nombreController.text,
             _apellidoController.text,
